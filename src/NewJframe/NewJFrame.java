@@ -225,7 +225,7 @@ String curAmountText = curAmount.getText();
         
         
         
-        String curFromtext = curFrom.getSelectedValue().toString();
+        String curFromtext = curFrom.getSelectedValue().toStrnig();
         String curTotext   = curTo.get SelectedValue().toString();
         
        // curAmount.setText(curFrom.getSelectedItem().toString);
