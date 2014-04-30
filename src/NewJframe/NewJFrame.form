@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Menu"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="About"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="curFrom" min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="curAmount" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="curTo" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="resultDisplay" min="-2" pref="81" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="curFrom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="curAmount" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="curTo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="resultDisplay" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter Amount"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="curAmount">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Currency From"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="curFrom">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="90">
+            <StringItem index="0" value="AED - United Arab Emirates Dirham"/>
+            <StringItem index="1" value="ARS - Argentine Peso"/>
+            <StringItem index="2" value="AUD - Australian Dollar"/>
+            <StringItem index="3" value="AWG - Aruban Florin"/>
+            <StringItem index="4" value="BAM - Bosnia and Herzegovina convertible mark"/>
+            <StringItem index="5" value="BBD - Barbadian Dollar"/>
+            <StringItem index="6" value="BDT - Bangladeshi Taka"/>
+            <StringItem index="7" value="BGN - Bulgarian Lev"/>
+            <StringItem index="8" value="BHD - Bahraini Dinar"/>
+            <StringItem index="9" value="BMD - Bermudian Dollar"/>
+            <StringItem index="10" value="BOB - Bolivian Boliviano"/>
+            <StringItem index="11" value="BRL - Brazilian Real"/>
+            <StringItem index="12" value="BSD - Bahamian Dollar"/>
+            <StringItem index="13" value="CAD - Canadian Dollar"/>
+            <StringItem index="14" value="CHF - Swiss Franc"/>
+            <StringItem index="15" value="CLP - Chilean Peso"/>
+            <StringItem index="16" value="CNY - Chinese Yuan"/>
+            <StringItem index="17" value="COP - Colombian Peso"/>
+            <StringItem index="18" value="CZK - Czech Koruna"/>
+            <StringItem index="19" value="DKK - Danish Krone"/>
+            <StringItem index="20" value="DOP - Dominican Peso"/>
+            <StringItem index="21" value="EGP - Egyptian Pound"/>
+            <StringItem index="22" value="EUR - Euro"/>
+            <StringItem index="23" value="FJD - Fijian Dollar"/>
+            <StringItem index="24" value="GBP - British Pound Sterling"/>
+            <StringItem index="25" value="GHS - Ghana Cedi"/>
+            <StringItem index="26" value="GMD - Gambian Dalasi"/>
+            <StringItem index="27" value="GTQ - Guatemalan Quetzal"/>
+            <StringItem index="28" value="HKD - Hong Kong Dollar"/>
+            <StringItem index="29" value="HRK - Croatian Kuna"/>
+            <StringItem index="30" value="HUF - Hungarian Forint"/>
+            <StringItem index="31" value="IDR - Indonesian Rupiah"/>
+            <StringItem index="32" value="ILS - Israeli Sheqel"/>
+            <StringItem index="33" value="INR - Indian Rupee"/>
+            <StringItem index="34" value="ISK - Icelandic Krona"/>
+            <StringItem index="35" value="JMD - Jamaican Dollar"/>
+            <StringItem index="36" value="JOD - Jordanian Dinar"/>
+            <StringItem index="37" value="JPY - Japanese Yen"/>
+            <StringItem index="38" value="KES - Kenyan Shilling"/>
+            <StringItem index="39" value="KHR - Cambodian Riel"/>
+            <StringItem index="40" value="KRW - South Korean Won"/>
+            <StringItem index="41" value="KWD - Kuwaiti Dinar"/>
+            <StringItem index="42" value="LAK - Lao Kip"/>
+            <StringItem index="43" value="LBP - Lebanese Pound"/>
+            <StringItem index="44" value="LKR - Sri Lankan Rupee"/>
+            <StringItem index="45" value="LTL - Lithuanian Litas"/>
+            <StringItem index="46" value="MAD - Moroccan Dirham"/>
+            <StringItem index="47" value="MDL - Moldovan Leu"/>
+            <StringItem index="48" value="MGA - Malagasy Ariary"/>
+            <StringItem index="49" value="MKD - Macedonian Denar"/>
+            <StringItem index="50" value="MUR - Mauritian Rupee"/>
+            <StringItem index="51" value="MVR - Maldivian Rufiyaa"/>
+            <StringItem index="52" value="MXN - Mexican Peso"/>
+            <StringItem index="53" value="MYR - Malaysian Ringgit"/>
+            <StringItem index="54" value="NAD - Namibian Dollar"/>
+            <StringItem index="55" value="NGN - Nigerian Naira"/>
+            <StringItem index="56" value="NOK - Norwegian Krone"/>
+            <StringItem index="57" value="NPR - Nepalese Rupee"/>
+            <StringItem index="58" value="NZD - New Zealand Dollar"/>
+            <StringItem index="59" value="OMR - Omani Rial"/>
+            <StringItem index="60" value="PAB - Panamanian Balboa"/>
+            <StringItem index="61" value="PEN - Peruvian Sol"/>
+            <StringItem index="62" value="PHP - Philippine Peso"/>
+            <StringItem index="63" value="PKR - Pakistani Rupee"/>
+            <StringItem index="64" value="PLN - Polish Zloty"/>
+            <StringItem index="65" value="PYG - Paraguayan Guaran&#xed;"/>
+            <StringItem index="66" value="QAR - Qatari Riyal"/>
+            <StringItem index="67" value="RON - Romanian Leu"/>
+            <StringItem index="68" value="RSD - Serbian Dinar"/>
+            <StringItem index="69" value="RUB - Russian Rouble"/>
+            <StringItem index="70" value="SAR - Saudi Riyal"/>
+            <StringItem index="71" value="SCR - Seychellois Rupee"/>
+            <StringItem index="72" value="SEK - Swedish Krona"/>
+            <StringItem index="73" value="SGD - Singapore Dollar"/>
+            <StringItem index="74" value="SYP - Syrian Pound"/>
+            <StringItem index="75" value="THB - Thai Baht"/>
+            <StringItem index="76" value="TND - Tunisian Dinar"/>
+            <StringItem index="77" value="TRY - Turkish Lira"/>
+            <StringItem index="78" value="TWD - Taiwanese Dollar"/>
+            <StringItem index="79" value="UAH - Ukraine Hryvnia"/>
+            <StringItem index="80" value="UGX - Ugandan Shilling"/>
+            <StringItem index="81" value="USD - United States Dollar"/>
+            <StringItem index="82" value="UYU - Uruguayan Peso"/>
+            <StringItem index="83" value="VEF - Venezuelan Bol&#xed;var"/>
+            <StringItem index="84" value="VND - Vietnamese Dong"/>
+            <StringItem index="85" value="XAF - Central African Franc"/>
+            <StringItem index="86" value="XCD - East Caribbean Dollar"/>
+            <StringItem index="87" value="XOF - West African Franc"/>
+            <StringItem index="88" value="XPF - CFP Franc"/>
+            <StringItem index="89" value="ZAR - South African Rand"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="curFromActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Currency To"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="curTo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="90">
+            <StringItem index="0" value="AED - United Arab Emirates Dirham"/>
+            <StringItem index="1" value="ARS - Argentine Peso"/>
+            <StringItem index="2" value="AUD - Australian Dollar"/>
+            <StringItem index="3" value="AWG - Aruban Florin"/>
+            <StringItem index="4" value="BAM - Bosnia and Herzegovina convertible mark"/>
+            <StringItem index="5" value="BBD - Barbadian Dollar"/>
+            <StringItem index="6" value="BDT - Bangladeshi Taka"/>
+            <StringItem index="7" value="BGN - Bulgarian Lev"/>
+            <StringItem index="8" value="BHD - Bahraini Dinar"/>
+            <StringItem index="9" value="BMD - Bermudian Dollar"/>
+            <StringItem index="10" value="BOB - Bolivian Boliviano"/>
+            <StringItem index="11" value="BRL - Brazilian Real"/>
+            <StringItem index="12" value="BSD - Bahamian Dollar"/>
+            <StringItem index="13" value="CAD - Canadian Dollar"/>
+            <StringItem index="14" value="CHF - Swiss Franc"/>
+            <StringItem index="15" value="CLP - Chilean Peso"/>
+            <StringItem index="16" value="CNY - Chinese Yuan"/>
+            <StringItem index="17" value="COP - Colombian Peso"/>
+            <StringItem index="18" value="CZK - Czech Koruna"/>
+            <StringItem index="19" value="DKK - Danish Krone"/>
+            <StringItem index="20" value="DOP - Dominican Peso"/>
+            <StringItem index="21" value="EGP - Egyptian Pound"/>
+            <StringItem index="22" value="EUR - Euro"/>
+            <StringItem index="23" value="FJD - Fijian Dollar"/>
+            <StringItem index="24" value="GBP - British Pound Sterling"/>
+            <StringItem index="25" value="GHS - Ghana Cedi"/>
+            <StringItem index="26" value="GMD - Gambian Dalasi"/>
+            <StringItem index="27" value="GTQ - Guatemalan Quetzal"/>
+            <StringItem index="28" value="HKD - Hong Kong Dollar"/>
+            <StringItem index="29" value="HRK - Croatian Kuna"/>
+            <StringItem index="30" value="HUF - Hungarian Forint"/>
+            <StringItem index="31" value="IDR - Indonesian Rupiah"/>
+            <StringItem index="32" value="ILS - Israeli Sheqel"/>
+            <StringItem index="33" value="INR - Indian Rupee"/>
+            <StringItem index="34" value="ISK - Icelandic Krona"/>
+            <StringItem index="35" value="JMD - Jamaican Dollar"/>
+            <StringItem index="36" value="JOD - Jordanian Dinar"/>
+            <StringItem index="37" value="JPY - Japanese Yen"/>
+            <StringItem index="38" value="KES - Kenyan Shilling"/>
+            <StringItem index="39" value="KHR - Cambodian Riel"/>
+            <StringItem index="40" value="KRW - South Korean Won"/>
+            <StringItem index="41" value="KWD - Kuwaiti Dinar"/>
+            <StringItem index="42" value="LAK - Lao Kip"/>
+            <StringItem index="43" value="LBP - Lebanese Pound"/>
+            <StringItem index="44" value="LKR - Sri Lankan Rupee"/>
+            <StringItem index="45" value="LTL - Lithuanian Litas"/>
+            <StringItem index="46" value="MAD - Moroccan Dirham"/>
+            <StringItem index="47" value="MDL - Moldovan Leu"/>
+            <StringItem index="48" value="MGA - Malagasy Ariary"/>
+            <StringItem index="49" value="MKD - Macedonian Denar"/>
+            <StringItem index="50" value="MUR - Mauritian Rupee"/>
+            <StringItem index="51" value="MVR - Maldivian Rufiyaa"/>
+            <StringItem index="52" value="MXN - Mexican Peso"/>
+            <StringItem index="53" value="MYR - Malaysian Ringgit"/>
+            <StringItem index="54" value="NAD - Namibian Dollar"/>
+            <StringItem index="55" value="NGN - Nigerian Naira"/>
+            <StringItem index="56" value="NOK - Norwegian Krone"/>
+            <StringItem index="57" value="NPR - Nepalese Rupee"/>
+            <StringItem index="58" value="NZD - New Zealand Dollar"/>
+            <StringItem index="59" value="OMR - Omani Rial"/>
+            <StringItem index="60" value="PAB - Panamanian Balboa"/>
+            <StringItem index="61" value="PEN - Peruvian Sol"/>
+            <StringItem index="62" value="PHP - Philippine Peso"/>
+            <StringItem index="63" value="PKR - Pakistani Rupee"/>
+            <StringItem index="64" value="PLN - Polish Zloty"/>
+            <StringItem index="65" value="PYG - Paraguayan Guaran&#xed;"/>
+            <StringItem index="66" value="QAR - Qatari Riyal"/>
+            <StringItem index="67" value="RON - Romanian Leu"/>
+            <StringItem index="68" value="RSD - Serbian Dinar"/>
+            <StringItem index="69" value="RUB - Russian Rouble"/>
+            <StringItem index="70" value="SAR - Saudi Riyal"/>
+            <StringItem index="71" value="SCR - Seychellois Rupee"/>
+            <StringItem index="72" value="SEK - Swedish Krona"/>
+            <StringItem index="73" value="SGD - Singapore Dollar"/>
+            <StringItem index="74" value="SYP - Syrian Pound"/>
+            <StringItem index="75" value="THB - Thai Baht"/>
+            <StringItem index="76" value="TND - Tunisian Dinar"/>
+            <StringItem index="77" value="TRY - Turkish Lira"/>
+            <StringItem index="78" value="TWD - Taiwanese Dollar"/>
+            <StringItem index="79" value="UAH - Ukraine Hryvnia"/>
+            <StringItem index="80" value="UGX - Ugandan Shilling"/>
+            <StringItem index="81" value="USD - United States Dollar"/>
+            <StringItem index="82" value="UYU - Uruguayan Peso"/>
+            <StringItem index="83" value="VEF - Venezuelan Bol&#xed;var"/>
+            <StringItem index="84" value="VND - Vietnamese Dong"/>
+            <StringItem index="85" value="XAF - Central African Franc"/>
+            <StringItem index="86" value="XCD - East Caribbean Dollar"/>
+            <StringItem index="87" value="XOF - West African Franc"/>
+            <StringItem index="88" value="XPF - CFP Franc"/>
+            <StringItem index="89" value="ZAR - South African Rand"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="curToActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Convert"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Convert Amout"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="resultDisplay">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resultDisplayActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
